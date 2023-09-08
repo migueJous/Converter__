@@ -102,7 +102,7 @@ while _Entrar:
     if _SeleccionPrincipal == 1:
         os.system("clear")
         print("""\t!Si se ingresa una ruta no valida el programa podria fallar,
-        asegurese que las rutas y los archovos esten correctos""")
+        asegurese que las rutas y los archivos esten correctos""")
         _RutaVideo = input("\tRuta del video (ejemplo: /home/user/videos/video264.mp4): ")
         print("Leyendo archivo...")
         time.sleep(3)
@@ -127,7 +127,7 @@ while _Entrar:
         [06] Convertir ogg a wav 
         [99] Salir
         """)
-        _TipoDeConversion = int(input("Escoja una opcio: "))
+        _TipoDeConversion = int(input("Escoja una opcion: "))
         if _TipoDeConversion == 1:
             _mp3Awav()
         elif _TipoDeConversion == 2:
